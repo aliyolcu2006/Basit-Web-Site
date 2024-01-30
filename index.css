@@ -1,0 +1,173 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+#r1
+{
+  display: flex;
+  width: 1550px;
+  height: 700px;
+  
+  background-image: url(./h1.png);
+  background-repeat:no-repeat ;
+  background-size: 1600px;
+}
+.im1
+{
+  text-align: center;
+  border: 2px solid gray;
+  cursor: pointer;
+   width: 400px;
+   height: 350px;
+   margin-top: 130px;
+  
+   margin-left: 10px;
+   background-color: rgb(217, 217, 217);
+   opacity: 24;
+   animation-name: f10;
+   animation-duration: 3s;
+   animation-direction: alternate;
+}
+@keyframes f10
+  {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+.im1:hover
+{
+  box-shadow: 0px 0px 20px;
+  transform: translateY(30px);
+  transition: transform 1s;
+}
+.im2
+{
+  text-align: center;
+  border: 2px solid gray;
+  cursor: pointer;
+   width: 300px;
+   height: 350px;
+   margin-top: -350;
+   margin-left: 560px;
+   background-color: rgb(217, 217, 217);
+   animation-name: f20;
+   animation-duration: 3s;
+   animation-direction: alternate;
+   
+}
+@keyframes f20
+  {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+.im2:hover
+{
+  box-shadow: 0px 0px 20px;
+  transform: translateY(30px);
+  transition: transform 1s;
+ 
+}
+.im3
+{
+  text-align: center;
+  border: 2px solid gray;
+  cursor: pointer;
+   width: 400px;
+   height: 350px;
+   margin-top: -350;
+   margin-left: 1000px;
+  background-color: rgb(217, 217, 217);
+  animation-name: f30;
+  animation-duration: 3s;
+  animation-direction: alternate;
+   
+   
+}
+@keyframes f30
+  {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+.im3:hover
+{
+  box-shadow: 0px 0px 20px;
+  transform: translateY(30px);
+  transition: transform 1s;
+}
+.v1
+{
+  font-family: 'Times New Roman', Times, serif;
+  width: 1400px;
+  height: 70px;
+  background-color: aliceblue;
+  border: 3px solid rgb(160, 160, 160) ;
+  margin: 30px;
+  margin-left: 70px;
+  border-radius: 20px 20px;
+
+}
+.basliq1
+{
+  
+   width: 180px;
+   height: 50px;
+   padding-left: 30px;
+   margin-top: 15px;
+   float: left;
+   cursor: context-menu;
+   
+  }
+  .basliq2
+  {
+    width: 800px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 500px;
+     margin-top: -440px;
+     cursor: context-menu;
+     opacity: 24;
+     animation-name: f40;
+     animation-duration: 2s;
+     animation-direction: alternate;
+  }
+@keyframes f40
+  {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+ul
+{
+  display: flex;
+  margin-top: 25px;
+  color: gray;
+  list-style: none;
+  width: 50px;
+  
+}
+li:hover
+{
+  cursor: context-menu;
+  color: black;
+}
+li
+{
+  font-size: 20px; 
+  padding-left: 70px;
+}
+button
+{
+  box-shadow: 0px 0px 10px;
+  float: right;
+  
+  border: none;
+  color: gray;
+  background-color: rgb(255, 255, 255);
+  margin-right: 40px;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px 10px;
+  margin-top: -40px;
+}
+button:hover
+{
+  background-color: black;
+}
